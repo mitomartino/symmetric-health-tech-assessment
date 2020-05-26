@@ -1,0 +1,12 @@
+.SearchCount {
+    text-align: center;
+    font-style: italic;
+    flex-shrink: 0;
+    flex-grow: 0;
+    user-select: none;
+}
+
+.SearchCount > button {
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+}

@@ -1,0 +1,20 @@
+.SearchResults {
+    overflow: auto;
+    flex: 1 1;
+    display: grid;
+    grid-template-columns: max-content auto;
+    padding: 1rem 1rem 0.5rem 1rem;
+}
+
+.SearchResults-header-cell {
+    background-color: #282c34;
+    color: white;
+    font-weight: 400;
+    outline: 1px solid white;
+    padding: 0.2rem;
+}
+
+.SearchResults-body-attr {
+    outline: 1px solid white;
+    padding: 0.2rem;
+}
